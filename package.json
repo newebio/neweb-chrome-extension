@@ -1,0 +1,34 @@
+{
+    "name": "neweb-chrome-extension",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@types/chrome": "^0.0.69",
+        "neweb-core": "^0.17.8",
+        "rxjs": "^6.2.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^23.1.2",
+        "coveralls": "^3.0.1",
+        "jest": "^23.2.0",
+        "tslint": "^5.10.0",
+        "typescript": "^2.9.2"
+    },
+    "scripts": {
+        "test": "tsc && tslint --project tsconfig.json && jest --verbose --coverage",
+        "watch:test": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/newebio/neweb-chrome-extension.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/newebio/neweb-chrome-extension/issues"
+    },
+    "homepage": "https://github.com/newebio/neweb-chrome-extension#readme",
+    "jest": {}
+}
